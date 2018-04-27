@@ -1,0 +1,49 @@
+<!DOCTYPEhtml>
+<html>
+<meta charset="UFT-8">
+
+<head>
+    <title> Word Guess Game</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- linking javascript to HTML    -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <!-- Name of the game  -->
+    <h1> Word Guess Game</h1>
+    <h2> Press any key to start guessing the word!</h2>
+    
+
+    <!-- Counter to keep track of wins of the user -->
+
+    <div class="wins">
+        <span> Wins :</span>
+        <span id="winsCounter"></span>
+    </div>
+
+    <!-- Word guess displayed here-->
+    
+    <div class="word">
+        <span>Guess the Word I'm thinking of</span>
+        <span id="showWord"></span>
+    </div>
+
+    <!-- Counter to keep track of the Guesses remaining -->
+
+    <div class="guessesCounter">
+        <span> Guesses Left :</span>
+        <span id="guessesCounter"></span>
+    </div>
+    <!-- Display to keep track of the letters guessed so far -->
+
+    <div class="lettersList">
+        <span> Letters you guessed so far.......</span>
+        <span id="showLetters"> </span>
+    </div>
+</body>
+
+</html>
